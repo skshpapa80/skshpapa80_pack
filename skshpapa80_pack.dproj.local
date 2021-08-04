@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.828,=rtl.dcp</Transaction>
+    <Transaction>2021-08-04 22:14:49.356,=rtl.dcp</Transaction>
+    <Transaction>2021-08-04 22:15:12.756,D:\MYWORK\Github\skshpapa80_pack\skshpapa80_pack.dproj=C:\Users\TU\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021-08-04 22:15:19.692,=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
+    <Transaction>2021-08-04 22:15:59.286,D:\MYWORK\Github\skshpapa80_pack\khXLS.pas=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
