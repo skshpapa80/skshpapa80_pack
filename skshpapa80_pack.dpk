@@ -25,12 +25,15 @@ package skshpapa80_pack;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'skshpapa80 Component Pack'}
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  vcl;
 
 contains
-  khXLS in 'khXLS.pas';
+  khXLS in 'khXLS.pas',
+  khGrid in 'khGrid.pas';
 
 end.

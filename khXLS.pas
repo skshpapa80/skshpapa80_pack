@@ -65,6 +65,7 @@ end;
 
 function TkhXLS.InitXLS: Boolean;
 begin
+    // Initial Excel
     Result := False;
     try
 	    oXL := CreateOleObject('Excel.Application');
@@ -87,7 +88,7 @@ end;
 
 procedure TkhXLS.SelSheet(Index: Integer);
 begin
-    // 쉬트 선택
+    // Sheet Selecte
     if Index = 0 then
         oSheet := oWK.ActiveSheet
     else
@@ -113,12 +114,12 @@ end;
 
 function TkhXLS.XlsOpen(FileName: String): Boolean;
 begin
-    // 엑셀 파일 열기
+    // Excel File Open
     Result := False;
     try
 	    oXL.Visible := False;
 	    oXL.DisplayAlerts := False;
-	    oXL.WorkBooks.Open(FileName, 0, true); // 읽기 전용으로 읽기
+	    oXL.WorkBooks.Open(FileName, 0, true); // Read Only
     except
 	    Exit;
     end;
