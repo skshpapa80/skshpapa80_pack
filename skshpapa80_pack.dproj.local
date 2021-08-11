@@ -3,11 +3,13 @@
 	<Transactions>
     <Transaction>1899-12-30 00:00:00.000.286,D:\MYWORK\Github\skshpapa80_pack\Unit1.pas=D:\MYWORK\Github\skshpapa80_pack\khXLS.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.692,=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.928,=D:\MYWORK\Github\skshpapa80_pack\khGrid.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.756,C:\Users\TU\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\MYWORK\Github\skshpapa80_pack\skshpapa80_pack.dproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.356,=rtl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.943,=vcl.dcp</Transaction>
     <Transaction>1899-12-30 00:00:00.000.828,=rtl.dcp</Transaction>
-    <Transaction>2021-08-09 21:58:50.155,=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
-    <Transaction>2021-08-09 22:01:01.928,=D:\MYWORK\Github\skshpapa80_pack\khGrid.pas</Transaction>
-    <Transaction>2021-08-09 22:01:01.943,=vcl.dcp</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.155,=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
+    <Transaction>2021-08-11 16:19:20.184,=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
+    <Transaction>2021-08-11 16:19:32.165,D:\MYWORK\Github\skshpapa80_pack\khComponent.pas=D:\MYWORK\Github\skshpapa80_pack\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
