@@ -18,6 +18,7 @@ type
     procedure InsertRow(Index: Integer);            // Row Add
     procedure DeleteRow(Index: Integer); override;  // Row Remove
     function SaveXLS(SaveName: String): Boolean;
+    procedure LoadXLS(LodeFileName : String);
   published
     { Published declarations }
   end;
@@ -52,6 +53,45 @@ procedure TkhGrid.InsertRow(Index: Integer);
 begin
     RowCount := RowCount + 1;
     RowMoved(RowCount,Index);
+end;
+
+procedure TkhGrid.LoadXLS(LodeFileName: String);
+var
+    oXL, oWK, oSheet: Variant;
+    //oXL -> Excel Object
+    //oWK -> Excel WorkBook Object
+    //oSheet -> Excel Sheet Object
+    i, j : integer;
+begin
+    oXL := CreateOleObject('Excel.Application'); // Initial Excel
+
+    oXL.Visible := False; // Un Visible
+    oXL.DisplayAlerts := False; // message not display
+    oXL.WorkBooks.Open(LodeFileName, 0, true); // read only
+
+    oWK := oXL.WorkBooks.Item[1];
+    oSheet := oWK.ActiveSheet; // Get Select Sheet
+
+    // Sheet Number Selection
+    //oSheet := oWK.WorkSheets.Item[1];
+
+    // oSheet.UsedRange.Rows.count = Sheet Row
+    // oSheet.UsedRange.Columns.count = Sheet Col
+    Self.ColCount := StrToInt(oSheet.UsedRange.Columns.count);
+    Self.RowCount := StrToInt(oSheet.UsedRange.Rows.count);
+
+    for i := 1 to StrToInt(oSheet.UsedRange.Rows.count) do begin
+        // Cell Value VarToStr(oSheet.Cells[i,1])
+        // Read Cell Value
+        for j := 1 to StrToInt(oSheet.UsedRange.Columns.count) do begin
+            Self.Cells[ j-1, i-1] := VarToStr(oSheet.Cells[i,j]);
+        end;
+    end;
+
+    // Excel Close
+    oXL.WorkBooks.Close;
+    oXL.Quit;
+    oXL := unassigned;
 end;
 
 function TkhGrid.SaveXLS(SaveName: String): Boolean;
