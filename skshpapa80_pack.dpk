@@ -35,6 +35,7 @@ requires
 contains
   khXLS in 'khXLS.pas',
   khGrid in 'khGrid.pas',
-  khComponent in 'khComponent.pas';
+  khComponent in 'khComponent.pas',
+  khImage in 'khImage.pas';
 
 end.
