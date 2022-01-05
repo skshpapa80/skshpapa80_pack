@@ -9,5 +9,5 @@ Blog : https://blog.naver.com/skshpapa80
 Unit List
 - khXLS : Excel Contorl Unit
 - khGrid : StringGrid Add Function
-- khEdit : Align Test, Mouse Enter. Leave Event
+- khEdit : Align Text, Mouse Enter. Leave Event
 - khComboBox : Two Value Combobox, Item/Values : TStrings
