@@ -12,7 +12,7 @@ interface
 
 uses
   System.SysUtils, System.Classes, Vcl.Controls, Vcl.Graphics, System.Types,
-  Vcl.Imaging.Jpeg;
+  Vcl.Imaging.Jpeg, System.Math;
 
 type
   // Image View Mode
