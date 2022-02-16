@@ -38,6 +38,7 @@ contains
   khGrid in 'khGrid.pas',
   khComponent in 'khComponent.pas',
   khImage in 'khImage.pas',
-  khTrayIcon in 'khTrayIcon.pas';
+  khTrayIcon in 'khTrayIcon.pas',
+  khReport in 'khReport.pas';
 
 end.
