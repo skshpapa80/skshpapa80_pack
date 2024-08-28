@@ -2,6 +2,8 @@
 
 Delphi Component Pack
 
+제가 자주 쓰는 기능을 모아서 컴포넌트화 한 소스 입니다. 
+
 made by skshpapa80@gmail.com
 
 Blog : https://www.raycho12.pe.kr/2024/03/14/delphi-make-component/
