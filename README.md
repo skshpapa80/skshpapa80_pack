@@ -15,3 +15,4 @@ Unit List
 - khComboBox : Two Value Combobox, Item/Values : TStrings
 - khImage : Image Load, Jpeg Load Rotate 
 - khReport : Report class
+- khTrayIcon : Tray Icon
