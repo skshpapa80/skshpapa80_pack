@@ -6,7 +6,7 @@ Delphi Component Pack
 
 made by skshpapa80@gmail.com
 
-Blog : https://www.raycho12.pe.kr/2024/03/13/delphi-component/
+Blog : https://skshpapa80.blogspot.com/2024/03/delphi.html
 
 Unit List
 - khXLS : Excel Contorl Unit
